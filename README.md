@@ -70,13 +70,13 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
         "reg_bonus_type": "¡BONO DE BIENVENIDA 100%!",
         "account_number": "110001100022",
         "account_activation": "2023-10-05 23:20:00",
-        "account_invalidation": "2023-10-05 23:20:00",
+        "account_invalidation": null,
         "bonus_sports": "true",
         "bonus_casino": "false",
-        "bets_aggregate_num": "5",
-        "bets_aggregate_amount": "100",
+        "bets_aggregate_num": 5,
+        "bets_aggregate_amount": 100.58,
         "bets_last_date": "2024-01-03 23:20:00",
-        "deposit_total_num": "10",
+        "deposit_total_num": 10,
         "deposit_total_amount": "120.55",
         "last_deposit": "2024-01-01 15:45:45",
         "first_deposit": "2023-09-09 09:09:09",
@@ -89,7 +89,9 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
     }
 }
 ```
+
 * Postman File for import [Example Postman](./dev_Betgol.postman_collection.json)
+* Important!: if date, datetime, float or intger is empty send send null in JSON format like an "account_invalidation" that is inside of JSON example, for string just send ""
 
 
 
