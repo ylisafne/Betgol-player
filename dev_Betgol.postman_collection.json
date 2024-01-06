@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "6d82e8cd-7c08-493d-a5fb-b45e758944c4",
+		"name": "dev_Betgol",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19443068"
+	},
+	"item": [
+		{
+			"name": "1-Login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"params\": {\r\n        \"db\": \"demo\",\r\n        \"login\": \"admin\",\r\n        \"password\": \"{{api_key}}\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.betgolperu.com/web/session/authenticate",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"betgolperu",
+						"com"
+					],
+					"path": [
+						"web",
+						"session",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2-Betgol Player",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "f26c489d7cb337bdb86dd461e2513c276451eaae",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tubetgol\": {\r\n        \"GUID\": \"00000000-00DC-AAAA-BBBB-D30E301B001F\",\r\n        \"first_name\": \"First Name Example\",\r\n        \"last_name\": \"Last Name Example\",\r\n        \"street\": \"Street Example\",\r\n        \"city\": \"lima\",\r\n        \"country_id\": \"Peru\",\r\n        \"zip\": \"27015\",\r\n        \"birthdate\": \"2010-07-25\",\r\n        \"mobile\": \"+51 956 896 478\",\r\n        \"vat\": \"42132132\",\r\n        \"email\": \"example@gmail.com\",\r\n        \"device\": \"android\",\r\n        \"origin_website\": \"m.tubetgol.com\",\r\n        \"reg_bonus_type\": \"¡BONO DE BIENVENIDA 100%!\",\r\n        \"account_number\": \"110001100022\",\r\n        \"account_activation\": \"2023-10-05 23:20:00\",\r\n        \"account_invalidation\": \"2023-10-05 23:20:00\",\r\n        \"bonus_sports\": \"true\",\r\n        \"bonus_casino\": \"false\",\r\n        \"bets_aggregate_num\": \"5\",\r\n        \"bets_aggregate_amount\": \"100\",\r\n        \"bets_last_date\": \"2024-01-03 23:20:00\",\r\n        \"deposit_total_num\": \"10\",\r\n        \"deposit_total_amount\": \"120.55\",\r\n        \"last_deposit\": \"2024-01-01 15:45:45\",\r\n        \"first_deposit\": \"2023-09-09 09:09:09\",\r\n        \"second_deposit\": \"2023-10-10 10:10:10\",\r\n        \"third_deposit\": \"2023-12-12 12:12:12\",\r\n        \"bets_sports\": \"true\",\r\n        \"bets_casino\": \"true\",\r\n        \"bets_horse_riding\": \"true\",\r\n        \"bets_virtual\": \"false\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.betgolperu.com/betgol_app/player/",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"betgolperu",
+						"com"
+					],
+					"path": [
+						"betgol_app",
+						"player",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
