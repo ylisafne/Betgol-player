@@ -95,6 +95,8 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
 
 ## Odoo Dev Acces
 
+* for check the record in app Login Odoo > Betgol App 
+
 URL:
 ```
 https://dev.betgolperu.com
@@ -108,7 +110,7 @@ Password
 admin
 ```
 
-* for check the record in app Login Odoo > Betgol App 
+
 
 
 
