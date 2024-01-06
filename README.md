@@ -54,7 +54,7 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
 ```
 {
     "tubetgol": {
-        "GUID": "00000000-00DC-AAAA-BBBB-D30E301B001F",
+        "GUID": "00000000-00DC-AAAA-BBBB-CCCCCC111111",
         "first_name": "First Name Example",
         "last_name": "Last Name Example",
         "street": "Street Example",
@@ -71,21 +71,21 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
         "account_number": "110001100022",
         "account_activation": "2023-10-05 23:20:00",
         "account_invalidation": null,
-        "bonus_sports": "true",
-        "bonus_casino": "false",
+        "bonus_sports": true,
+        "bonus_casino": false,
         "bets_aggregate_num": 5,
         "bets_aggregate_amount": 100.58,
         "bets_last_date": "2024-01-03 23:20:00",
         "deposit_total_num": 10,
-        "deposit_total_amount": "120.55",
+        "deposit_total_amount": 120.55,
         "last_deposit": "2024-01-01 15:45:45",
         "first_deposit": "2023-09-09 09:09:09",
         "second_deposit": "2023-10-10 10:10:10",
         "third_deposit": "2023-12-12 12:12:12",
-        "bets_sports": "true",
-        "bets_casino": "true",
-        "bets_horse_riding": "true",
-        "bets_virtual": "false"
+        "bets_sports": false,
+        "bets_casino": true,
+        "bets_horse_riding": false,
+        "bets_virtual": true
     }
 }
 ```
@@ -93,6 +93,22 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
 
 * Postman File for import [Example Postman](./dev_Betgol.postman_collection.json)
 
+## Odoo Dev Acces
+
+URL:
+```
+https://dev.betgolperu.com
+```
+User
+```
+admin
+```
+Password
+```
+admin
+```
+
+* for check the record in app Login Odoo > Betgol App 
 
 
 
