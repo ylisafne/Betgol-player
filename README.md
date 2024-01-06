@@ -90,6 +90,6 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
 }
 ```
 
-# Example Postman (./Dev Betgol.postman_collection.json)
+Example Postman (./Dev Betgol.postman_collection.json)
 
 
