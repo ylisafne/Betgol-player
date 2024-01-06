@@ -37,6 +37,7 @@
 | BETS_HORSE_RIDING            | bets_horse_riding     | Bool          | No          | true                                 |                                                                                            |
 | BETS_VIRTUAL                 | bets_virtual          | Bool          | No          | false                                |                                                                                            |
 
+
 ## How to Send Data
 
 #This example is for Dev environment 
@@ -89,8 +90,7 @@ f26c489d7cb337bdb86dd461e2513c276451eaae
     }
 }
 ```
-
-* [Example Postman](./Dev Betgol.postman_collection.json)
+* [Example Postman](./DevBetgol.postman_collection.json)
 
 
 
