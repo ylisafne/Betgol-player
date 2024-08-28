@@ -5,7 +5,7 @@
 1. In the button "¡Hablemos!" add function to show a modal (pop-up) with the form  like this (reference image)
 ![reference image](src/img/modal.png "Modal Example")
 
-2. When user click in the SUBMIT button that it's in modal(pop-up). The information must be sent to the API ODOO CRM and the WhatsApp URL("https://api.whatsapp.com/send") we suggest use html tag target="_blank"
+2. When user click in the SUBMIT button that it's in modal(pop-up). The information must be sent to the API ODOO CRM and the WhatsApp URL("https://api.whatsapp.com/send?phone=51990527400") we suggest use html tag target="_blank"
 
 ## API ODOO CRM
 We have two environments, Developer (DEV) and Production (PRD) use the values ​​as appropriate
@@ -14,7 +14,7 @@ We have two environments, Developer (DEV) and Production (PRD) use the values �
 
 |Environment| Description | Value      |
 | -----------| ------|----------|
-|PRD| Endpoint(URL) | https://betgolperu.com/util/lead/red |
+|PRD| Endpoint(URL) | https://odoo.betgolperu.com/util/lead/red |
 |DEV| Endpoint(URL) | https://dev.betgolperu.com/util/lead/red |
 || Method| POST |
 || (token)Authorization | We will send the token through a secure channel
