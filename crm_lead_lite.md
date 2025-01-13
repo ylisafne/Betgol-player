@@ -1,5 +1,7 @@
 # API Formulario WEB
 
+## Selected Values 
+
 ### Tipo de Documento
 | Value | Odoo String | Web String |
 |--|--|--|
@@ -30,7 +32,7 @@
 | 55 | 18 a más | 18:00 - 18 a más:00 |
 
 
-### API Information.
+## API Information.
 
 |Environment| Description | Value      |
 | -----------| ------|----------|
