@@ -21,6 +21,7 @@
 | 48 | Cabinas | Cabinas |
 | 49 | Autolavado | Autolavado |
 | 50 | Ferretería | Ferretería |
+| 56 | Sin Negocio  | Sin Negocio | 
 
 ### Horarios
 | Value | Odoo String | Web String |
@@ -50,11 +51,11 @@
 | vat | 45678987 | value entered in the form |
 | phone| 999999999 | number entered in the form |
 | email_from | example@example.com | email entered in the form |
-|tag_ids | [46, 54] | array with values from "What kind of business do you run?"  and preferred time
+|tag_ids | [46, 54] | array with values from "What kind of business do you run?"  and preferred time. If the user selects "no business" (sin Negocio), only the arrangement with a single value will be sent Example [ 54 ]
 | medium_id| 1 | Always use this value
 | lang_id | 78 | Always use this value (Spanish language)
 
-JSON 
+JSON
 ```
 {
     "name" : "Juan Perez",
