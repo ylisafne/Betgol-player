@@ -68,3 +68,36 @@ JSON
     "lang_id": 78
 }
 ```
+
+## Example Code JavaScript - fetch to DEV
+```
+const myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+myHeaders.append("Authorization", "••••••");
+
+const raw = JSON.stringify({
+  "name": "Juan Perez",
+  "l10n_latam_identification_type_id": "5",
+  "vat": "45678987",
+  "phone": "999999999",
+  "email_from": "example@example.com",
+  "tag_ids": [
+    46,
+    54
+  ],
+  "medium_id": 1,
+  "lang_id": 78
+});
+
+const requestOptions = {
+  method: "POST",
+  headers: myHeaders,
+  body: raw,
+  redirect: "follow"
+};
+
+fetch("https://dev.betgolperu.com/util/lead-lite", requestOptions)
+  .then((response) => response.text())
+  .then((result) => console.log(result))
+  .catch((error) => console.error(error));
+```
