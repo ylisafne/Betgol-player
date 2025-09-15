@@ -1,3 +1,10 @@
+# API End Point
+| Enviroment | Base URL| Path | Token |
+| DEV | https://dev.betgolperu.com | /util/crm/lead | |
+| PRD | https://betgolperu.com | /util/crm/lead | |
+
+
+
 # Datos de Formulario
 
 ## Form Example (inputs names is required like an example)
