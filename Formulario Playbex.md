@@ -1,8 +1,8 @@
 # API End Point
-| Enviroment | Base URL| Path | Token |
-| DEV | https://dev.betgolperu.com | /util/crm/lead | |
-| PRD | https://betgolperu.com | /util/crm/lead | |
-
+| Enviroment | Base URL | Path | Token |
+|----------|----------|----------|-----|
+| DEV | https://dev.betgolperu.com | /util/crm/lead | send in private message
+| PRD | https://betgolperu.com | /util/crm/lead | send in private message
 
 
 # Datos de Formulario
